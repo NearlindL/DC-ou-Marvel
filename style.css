@@ -1,0 +1,76 @@
+.homemdeferro{
+    background-image: url(../img/homem\ de\ ferro.jfif);
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    color: #ff0000;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: homemdeferro 3s infinite;
+}
+.homemaranha{
+    background-image: url(../img/homem\ aranha.jfif);
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    color: #ff0000;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: homemaranha 3s infinite;
+}
+.flash{
+    background-image: url(../img/flash.jfif);
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    color: #ff0000;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: flash 3s infinite;
+}
+.batman{
+    background-image: url(../img/batman.jfif);
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    color: #ff0000;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: batman 3s infinite;
+}
+@keyframes batman{
+    0%{
+       rotate: 0deg;
+    }
+    100%{
+        rotate: 360deg;
+    }
+}
+@keyframes flash{
+    0%{
+       rotate: 0deg;
+    }
+    100%{
+        rotate: 360deg;
+    }
+}
+@keyframes homemdeferro{
+    0%{
+       rotate: 0deg;
+    }
+    100%{
+        rotate: 360deg;
+    }
+}
+@keyframes homemaranha{
+    0%{
+       rotate: 0deg;
+    }
+    100%{
+        rotate: 360deg;
+    }
+}
